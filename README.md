@@ -39,3 +39,15 @@ First, we need to create a user and then create access keys for that particular 
 3. Click "Create user"
 
 ![Screenshot 2024-05-05 at 12 56 48](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/ded49b4d-5a14-4db0-8cc0-fabcbfcd3474)
+
+
+4. Enter the "User name" i will use `ec2-terraform` then click "Next"
+
+![Screenshot 2024-05-05 at 12 57 20](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/457b10b7-aa88-436c-9eb2-e1d99b2f9346)
+
+5. Set permissions, choose "Attached policies directly" search and choose `AmazonEC2FullAccess` then click "Next"
+
+![Screenshot 2024-05-05 at 12 58 56](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/30f06e43-5147-49ec-b22a-608add702318)
+
+
+6. 
