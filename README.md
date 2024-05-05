@@ -3,7 +3,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Terraform is a popular tool for building, changing, and versioning infrastructure safely and efficiently. With the apply command, Terraform compares the current state of the Target infrastructure against the desired state defined in the configuration and determines what actions are necessary to achieve the desired state.
+We are going to learn how to create an Amazon EC2 instance using Terraform. Terraform is a popular tool for building, changing, and versioning infrastructure safely and efficiently. With the apply command, Terraform compares the current state of the Target infrastructure against the desired state defined in the configuration and determines what actions are necessary to achieve the desired state.
 
 
 
@@ -18,3 +18,15 @@ Terraform is a popular tool for building, changing, and versioning infrastructur
 * Build a Lambda function to handle the CRUD operations on the DynamoDB table
 * Use S3 to store and host the web application's static files (HTML, CSS, and JavaScript)
 * Create a CloudFront distribution to serve the S3-hosted static files with low latency
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
