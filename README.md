@@ -7,14 +7,14 @@ We are going to learn how to create an Amazon EC2 instance using Terraform. Terr
 
 
 
-## <a name="design">📐 Project Architecture</a>
+## <a name="design">📐 Design</a>
 
 ![Serverless Web Application on AWS](https://github.com/julien-muke/Serverless-Web-Application-on-AWS/assets/110755734/9c7fefe7-014e-4648-a105-fc67b201d882)
 
 
 ## <a name="steps">☑️ Steps</a>
 
-* Create a DynamoDB table to store the items
+* Create an IAM User, and the Access Key
 * Build a Lambda function to handle the CRUD operations on the DynamoDB table
 * Use S3 to store and host the web application's static files (HTML, CSS, and JavaScript)
 * Create a CloudFront distribution to serve the S3-hosted static files with low latency
@@ -27,6 +27,6 @@ Follow these steps to set up the project locally on your machine.
 
 Make sure you have the following installed on your machine:
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [terraform](https://www.terraform.io/)
+- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
