@@ -63,5 +63,12 @@ Now you can see that our user has been successfully created.
 9. Scroll down to security crendentials tab, and click "Create access key"
 10. Since I am going to work with command line interface, we will choose CLI and check the confirmation box and click "Next"
 
+![Create-access-key-IAM-Global](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/38d247fc-4ed8-4e45-962c-c8c17400dbd3)
+
+11. The access key is successfully created, now it will show the access key as well as the secret access key, I will simply go and download the CSV file.
+
+![Screenshot 2024-05-05 at 13 00 36](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/6729ff8e-3b35-4e1c-9994-3ed73d557b73)
+
+
 
 
