@@ -29,3 +29,13 @@ Make sure you have the following installed on your machine:
 - [terraform](https://www.terraform.io/)
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
+
+## ➡️ Step 1 - Create an IAM User, and the Access Key
+
+First, we need to create a user and then create access keys for that particular user so that we can work with them for our authentication purpose.
+
+1. Navigate to your AWS Console, search for AWS Identity and Access Management (IAM)
+2. Go the Tab at righ hand side and choose "Users"
+3. Click "Create user"
+
+![Screenshot 2024-05-05 at 12 56 48](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/ded49b4d-5a14-4db0-8cc0-fabcbfcd3474)
