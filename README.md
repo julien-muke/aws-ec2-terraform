@@ -50,4 +50,18 @@ First, we need to create a user and then create access keys for that particular 
 ![Screenshot 2024-05-05 at 12 58 56](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/30f06e43-5147-49ec-b22a-608add702318)
 
 
-6. 
+6. Review the details and click "Create user"
+
+Now you can see that our user has been successfully created.
+
+7. Next, let's create the access key for the user
+8. Click on the user we just created
+
+![Screenshot 2024-05-05 at 12 59 44](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/5c8a1851-c9d4-4500-9816-d913cf133e2c)
+
+
+9. Scroll down to security crendentials tab, and click "Create access key"
+10. Since I am going to work with command line interface, we will choose CLI and check the confirmation box and click "Next"
+
+
+
