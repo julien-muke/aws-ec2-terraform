@@ -11,7 +11,7 @@ With the apply command, Terraform compares the current state of the Target infra
 
 ## <a name="design">📐 Design</a>
 
-![Serverless Web Application on AWS](https://github.com/julien-muke/Serverless-Web-Application-on-AWS/assets/110755734/9c7fefe7-014e-4648-a105-fc67b201d882)
+![Serverless Web Application on AWS(1)](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/3e8c84c5-c7a8-41a3-9ae9-f4dc7c68ee7f)
 
 
 ## <a name="steps">☑️ Steps</a>
