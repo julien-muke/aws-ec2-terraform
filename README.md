@@ -73,7 +73,17 @@ Now you can see that our user has been successfully created.
 
 ## ➡️ Step 2 - Configure Profile using AWS configure command
 
-To access AWS services with the AWS CLI, you need at minimum an AWS account and IAM credentials. To increase the security of your AWS account, it's recommended that you do not use your root account credentials. You should create a user with least privilege to provide access credentials to the tasks you'll be running in AWS. 
+We are going to configure AWS profile on VS Code (or any IDE of your choise). To configure the profife:
+
+1. Open VS Code and run the command `aws configure`
+2. Copy and paste your AWS Access Key ID
+3. Copy and paste your AWS Secret Access key
+4. Keep as default region name and output format
+
+![1](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/401b86cd-ddbd-4022-8556-9d512e686306)
+
+
+
 
 
 
