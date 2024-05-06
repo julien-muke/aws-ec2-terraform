@@ -5,8 +5,6 @@
 
 We are going to learn how to create an Amazon EC2 instance using Terraform. Terraform is a popular tool for building, changing, and versioning infrastructure safely and efficiently. 
 
-With the apply command, Terraform compares the current state of the Target infrastructure against the desired state defined in the configuration and determines what actions are necessary to achieve the desired state.
-
 
 ![Serverless Web Application on AWS(1)](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/3e8c84c5-c7a8-41a3-9ae9-f4dc7c68ee7f)
 
