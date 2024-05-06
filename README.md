@@ -13,10 +13,11 @@ With the apply command, Terraform compares the current state of the Target infra
 
 ## <a name="steps">☑️ Steps</a>
 
-* Create an IAM User, and the Access Key
-* Build a Lambda function to handle the CRUD operations on the DynamoDB table
-* Use S3 to store and host the web application's static files (HTML, CSS, and JavaScript)
-* Create a CloudFront distribution to serve the S3-hosted static files with low latency
+1. Create an IAM User
+2. Configure Profile using AWS configure command
+3. Create Terraform file (.tf) and write the Script
+4. Execute the Terraform Script
+5. Verify S3 Bucket is created 
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -26,7 +27,7 @@ Follow these steps to set up the project locally on your machine.
 
 Make sure you have the following installed on your machine:
 
-- [terraform](https://www.terraform.io/)
+- [Terraform](https://www.terraform.io/)
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 
 
@@ -69,6 +70,10 @@ Now you can see that our user has been successfully created.
 
 ![Screenshot 2024-05-05 at 13 00 36](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/6729ff8e-3b35-4e1c-9994-3ed73d557b73)
 
+
+## ➡️ Step 2 - Configure Profile using AWS configure command
+
+To access AWS services with the AWS CLI, you need at minimum an AWS account and IAM credentials. To increase the security of your AWS account, it's recommended that you do not use your root account credentials. You should create a user with least privilege to provide access credentials to the tasks you'll be running in AWS. 
 
 
 
