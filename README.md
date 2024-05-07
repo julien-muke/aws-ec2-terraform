@@ -86,6 +86,11 @@ We are going to configure basic settings that the AWS Command Line Interface (AW
 ![2](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/3d5a2a6f-9d22-4cf7-b065-3e5d2b0765c7)
 
 
+## ➡️ Step 3 - Create Terraform file (.tf) and write the Script
 
 
+1. Create a file to define your infrastructure by running the following command:
 
+```script
+touch main.tf
+```
