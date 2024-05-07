@@ -216,6 +216,13 @@ terraform apply
 
 All services used are eligible for the AWS Free Tier. However, charges will incur at some point so it's recommended that you shut down resources after completing this tutorial.
 
+To delete the EC2 instance, run the command `terraform destroy`
+
+```bash
+terraform destroy
+```
+
+
 
 
 
