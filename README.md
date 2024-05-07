@@ -204,6 +204,11 @@ terraform apply
 
 ## ➡️ Step 5 - Verify S3 Bucket is created 
 
+1. Open your AWS Management Console, seach for EC2 instance, as you can see below our EC2 instance has been successfully created  and it's in a running state.
+
+![Screenshot 2024-05-05 at 13 46 13](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/0af68101-c649-41d4-9d99-27520763eef4)
+
+
 
 
 
