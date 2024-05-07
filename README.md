@@ -188,9 +188,9 @@ terraform plan
 - It will create the Amazon Machine Image (AMI) as we specify
 - The rest of the configuration will be applied automatically
 
-![6](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/d7033e92-38c8-405d-b4eb-0c04d4571320)
-![7](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/062ab1ae-d8ae-441e-ac65-c4a818b7c64c)
-![8](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/84c53071-f475-4a2f-8e1f-8d68657ec36f)
+![6](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/53794b97-78ad-41d6-996c-70bcba9a5b0f)
+![7](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/7a509edb-85fd-4a70-a21d-b11aace73706)
+![8](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/a8441e38-1874-41b0-8aea-8fe9129978aa)
 
 
 7. Apply the configuration now with the `terraform apply` command the confirm by `yes`. Also terraform apply command we create
@@ -209,7 +209,7 @@ terraform apply
 ![Screenshot 2024-05-05 at 13 46 13](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/0af68101-c649-41d4-9d99-27520763eef4)
 
 
-🏆 We have successfully create an EC2 instance with the help of Terraform.
+🏆 We have successfully created an EC2 instance with the help of Terraform.
 
 
 ## 💰 Cost
