@@ -209,6 +209,14 @@ terraform apply
 ![Screenshot 2024-05-05 at 13 46 13](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/0af68101-c649-41d4-9d99-27520763eef4)
 
 
+🏆 We have successfully create an EC2 instance with the help of Terraform.
+
+
+## 💰 Cost
+
+All services used are eligible for the AWS Free Tier. However, charges will incur at some point so it's recommended that you shut down resources after completing this tutorial.
+
+
 
 
 
