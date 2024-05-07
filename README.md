@@ -12,7 +12,7 @@ We are going to learn how to create an Amazon EC2 instance using Terraform. Terr
 ## <a name="steps">☑️ Steps</a>
 
 1. Create an IAM User
-2. Configure Profile using AWS configure command
+2. Configure AWS profile and set up the AWS CLI
 3. Create Terraform file (.tf) and write the Script
 4. Execute the Terraform Script
 5. Verify S3 Bucket is created 
@@ -69,17 +69,21 @@ Now you can see that our user has been successfully created.
 ![Screenshot 2024-05-05 at 13 00 36](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/6729ff8e-3b35-4e1c-9994-3ed73d557b73)
 
 
-## ➡️ Step 2 - Configure Profile using AWS configure command
+## ➡️ Step 2 - Configure AWS profile and set up the AWS CLI
 
-We are going to configure AWS profile on VS Code (or any IDE of your choise). To configure the profife:
+We are going to configure basic settings that the AWS Command Line Interface (AWS CLI) uses to interact with AWS. These include your security credentials, the default output format, and the default AWS Region.
 
-1. Open VS Code and run the command `aws configure`
+
+1. Open VS Code (or any IDE of your choise) and run the command `aws configure`
 2. Copy and paste your AWS Access Key ID
 3. Copy and paste your AWS Secret Access key
 4. Keep as default region name and output format
 
 ![1](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/401b86cd-ddbd-4022-8556-9d512e686306)
 
+5. To check if the AWS profile is configured run the following command `aws configure list`
+
+![2](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/3d5a2a6f-9d22-4cf7-b065-3e5d2b0765c7)
 
 
 
