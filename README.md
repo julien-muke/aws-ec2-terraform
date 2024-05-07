@@ -175,3 +175,34 @@ terraform validate
 ```
 
 ![5](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/ea78429e-7729-4ef5-a416-8ec67d1008fc)
+
+
+5. Next, I'll try to preview the changes with the help of `terraform plan` command
+
+```bash
+terraform plan
+```
+
+6. As you can see below, terraform will perform the following actions:
+- It wil create a resource that is AWS instance
+- It will create the Amazon Machine Image (AMI) as we specify
+- The rest of the configuration will be applied automatically
+
+![6](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/d7033e92-38c8-405d-b4eb-0c04d4571320)
+![7](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/062ab1ae-d8ae-441e-ac65-c4a818b7c64c)
+![8](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/84c53071-f475-4a2f-8e1f-8d68657ec36f)
+
+
+7. Apply the configuration now with the `terraform apply` command the confirm by `yes`. Also terraform apply command we create
+`terraform.dfstate` file. Terraform will print output similar to what is shown below.
+
+```bash
+terraform apply
+```
+
+![9](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/e74c3408-96fe-4180-ad5a-386c82ce3fb2)
+
+
+
+
+
