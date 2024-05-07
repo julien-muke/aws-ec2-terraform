@@ -149,9 +149,29 @@ The `provider` block configures the specified provider, in this case AWS. A prov
 Use `resource` blocks to define components of your infrastructure. A resource might be a physical or virtual component such as an EC2 instance.
 
 
-3. Next, it's recommended using consistent formatting in your configuration files. To automatically updates configurations in the current directory for readability and consistency run the following command:
+## ➡️ Step 4 - Execute the Terraform Script
+
+1. It's recommended using consistent formatting in your configuration files. To automatically updates configurations in the current directory for readability and consistency run the following command:
 
 ```bash
 terraform fmt
 ```
 
+2. You need to initialize the directory with the command `terraform init`. Initializing a configuration directory downloads and installs the providers defined in the configuration, which in this case is the `AWS` provider.
+
+```bash
+terraform init
+```
+
+3. Terraform will download the `aws` provider and will install it in a hidden subdirectory of your current working directory, named `.terraform`. The `terraform init` command will print out which version of the provider was installed. Terraform also creates a lock file named `.terraform.lock.hcl` which specifies the exact provider versions used, so that you can control when you want to update the providers used for your project.
+
+![4](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/4f8d4c31-9019-48de-9fcc-57e2d42df61c)
+
+
+4. You can also make sure your configuration is syntactically valid and internally consistent by using the `terraform validate` command.
+
+```bash
+terraform validate
+```
+
+![5](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/ea78429e-7729-4ef5-a416-8ec67d1008fc)
