@@ -98,6 +98,7 @@ touch main.tf
 
 2. Open main.tf in your text editor, paste in the configuration below, and save the file.
 
+
 ```bash
 terraform {
   required_providers {
@@ -114,9 +115,9 @@ provider "aws" {
   region  = "us-east-1"
 }
 
-resource "aws_instance" "my_instance" {
-  ami           = "ami-830c94e3"
-  instance_type = "t2.micro"
+resource "aws_instance" "YOUR-INSTANCE-NAME" {
+  ami           = "YOUR-AWS-AMI"
+  instance_type = "t3.micro"
 
   tags = {
     Name = "ExampleAppServerInstance"
@@ -124,6 +125,12 @@ resource "aws_instance" "my_instance" {
 }
 
 ```
+NOTE: 
+     <br>* Name your ES2 instance
+     <br>* Copy the AMI from your EC2 instance console
+
+![Screenshot 2024-05-07 at 16 13 38](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/1f6fa103-b8b2-44d6-a75a-f8064989b974)
+
 
 This is a complete configuration that you can deploy with Terraform. 
 
@@ -139,5 +146,8 @@ The `provider` block configures the specified provider, in this case AWS. A prov
 
 3. Resources
 
-Use `resource` blocks to define components of your infrastructure. A resource might be a physical or virtual component such as an EC2 instance, or it can be a logical resource such as a Heroku application.
+Use `resource` blocks to define components of your infrastructure. A resource might be a physical or virtual component such as an EC2 instance.
+
+
+
 
