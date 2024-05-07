@@ -120,7 +120,7 @@ resource "aws_instance" "YOUR-INSTANCE-NAME" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "ExampleAppServerInstance"
+    Name = "MyEC2Instance"
   }
 }
 
@@ -136,18 +136,22 @@ This is a complete configuration that you can deploy with Terraform.
 
 Let's review each block of this configuration in more detail:
 
-1. Terraform Block 
+* Terraform Block 
 
 The `terraform {}` block contains Terraform settings, including the required providers Terraform will use to provision your infrastructure. For each provider, the `source` attribute defines an optional hostname, a namespace, and the provider type. Terraform installs providers from the [Terraform Registry](https://registry.terraform.io/) by default. In this example configuration, the `AWS` provider's source is defined as `hashicorp/aws`, which is shorthand for `registry.terraform.io/hashicorp/aws`
 
-2. Providers
+* Providers
 
 The `provider` block configures the specified provider, in this case AWS. A provider is a plugin that Terraform uses to create and manage your resources.
 
-3. Resources
+* Resources
 
 Use `resource` blocks to define components of your infrastructure. A resource might be a physical or virtual component such as an EC2 instance.
 
 
+3. Next, it's recommended using consistent formatting in your configuration files. To automatically updates configurations in the current directory for readability and consistency run the following command:
 
+```bash
+terraform fmt
+```
 
