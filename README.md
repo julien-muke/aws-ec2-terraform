@@ -92,6 +92,52 @@ We are going to configure basic settings that the AWS Command Line Interface (AW
 
 1. Create a file to define your infrastructure by running the following command:
 
-```script
+```bash
 touch main.tf
 ```
+
+2. Open main.tf in your text editor, paste in the configuration below, and save the file.
+
+```bash
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 4.16"
+    }
+  }
+
+  required_version = ">= 1.2.0"
+}
+
+provider "aws" {
+  region  = "us-east-1"
+}
+
+resource "aws_instance" "my_instance" {
+  ami           = "ami-830c94e3"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "ExampleAppServerInstance"
+  }
+}
+
+```
+
+This is a complete configuration that you can deploy with Terraform. 
+
+Let's review each block of this configuration in more detail:
+
+1. Terraform Block 
+
+The `terraform {}` block contains Terraform settings, including the required providers Terraform will use to provision your infrastructure. For each provider, the `source` attribute defines an optional hostname, a namespace, and the provider type. Terraform installs providers from the [Terraform Registry](https://registry.terraform.io/) by default. In this example configuration, the `AWS` provider's source is defined as `hashicorp/aws`, which is shorthand for `registry.terraform.io/hashicorp/aws`
+
+2. Providers
+
+The `provider` block configures the specified provider, in this case AWS. A provider is a plugin that Terraform uses to create and manage your resources.
+
+3. Resources
+
+Use `resource` blocks to define components of your infrastructure. A resource might be a physical or virtual component such as an EC2 instance, or it can be a logical resource such as a Heroku application.
+
