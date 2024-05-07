@@ -202,6 +202,8 @@ terraform apply
 
 ![9](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/e74c3408-96fe-4180-ad5a-386c82ce3fb2)
 
+## ➡️ Step 5 - Verify S3 Bucket is created 
+
 
 
 
