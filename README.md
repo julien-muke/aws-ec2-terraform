@@ -206,7 +206,13 @@ terraform apply
 
 ![9](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/e74c3408-96fe-4180-ad5a-386c82ce3fb2)
 
-## ➡️ Step 5 - Verify S3 Bucket is created 
+You have now created infrastructure using Terraform! 
+
+When you applied your configuration, Terraform wrote data into a file called terraform.tfstate. Terraform stores the IDs and properties of the resources it manages in this file, so that it can update or destroy those resources going forward.
+
+## ➡️ Step 5 - Verify EC2 instance
+
+Let's verify and see if our new EC2 instance has been created.
 
 1. Open your AWS Management Console, seach for EC2 instance, as you can see below our EC2 instance has been successfully created  and it's in a running state.
 
