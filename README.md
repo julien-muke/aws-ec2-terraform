@@ -15,7 +15,7 @@ We are going to learn how to create an Amazon EC2 instance using Terraform. Terr
 2. Configure AWS profile and set up the AWS CLI
 3. Create Terraform file (.tf) and write the Script
 4. Execute the Terraform Script
-5. Verify S3 Bucket is created 
+5. Verify EC2 instance
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -54,18 +54,19 @@ First, we need to create a user and then create access keys for that particular 
 
 Now you can see that our user has been successfully created.
 
-7. Next, let's create the access key for the user
-8. Click on the user we just created
+Next, let's create the access key for the user
+
+7. Click on the user we just created
 
 ![Screenshot 2024-05-05 at 12 59 44](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/5c8a1851-c9d4-4500-9816-d913cf133e2c)
 
 
-9. Scroll down to security crendentials tab, and click "Create access key"
-10. Since I am going to work with command line interface, we will choose CLI and check the confirmation box and click "Next"
+8. Scroll down to security crendentials tab, and click "Create access key"
+9. Since I am going to work with command line interface, we will choose CLI and check the confirmation box and click "Next"
 
 ![Create-access-key-IAM-Global](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/38d247fc-4ed8-4e45-962c-c8c17400dbd3)
 
-11. The access key is successfully created, now it will show the access key as well as the secret access key, I will simply go and download the CSV file.
+10. The access key is successfully created, now it will show the access key as well as the secret access key, I will simply go and download the CSV file.
 
 ![Screenshot 2024-05-05 at 13 00 36](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/0c21c652-5cf0-4b8f-8e8e-bfb828a03e2c)
 
@@ -130,7 +131,7 @@ NOTE:
      <br>* Copy the AMI from your EC2 instance console
      <br>* Choose an instance type: t2.micro or t3.micro
 
-![3](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/edcffead-f92f-447a-b9a1-983a85fd9b83)
+![Screenshot 2024-05-07 at 16 13 38](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/62acfd00-e099-48fe-987b-a74163239efc)
 
 
 This is a complete configuration that you can deploy with Terraform. 
