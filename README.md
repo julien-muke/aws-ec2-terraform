@@ -129,7 +129,7 @@ NOTE:
      <br>* Name your ES2 instance
      <br>* Copy the AMI from your EC2 instance console
 
-![Screenshot 2024-05-07 at 16 13 38](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/1f6fa103-b8b2-44d6-a75a-f8064989b974)
+![3](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/edcffead-f92f-447a-b9a1-983a85fd9b83)
 
 
 This is a complete configuration that you can deploy with Terraform. 
