@@ -128,6 +128,7 @@ resource "aws_instance" "YOUR-INSTANCE-NAME" {
 NOTE: 
      <br>* Name your ES2 instance
      <br>* Copy the AMI from your EC2 instance console
+     <br>* Choose an instance type: t2.micro or t3.micro
 
 ![3](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/edcffead-f92f-447a-b9a1-983a85fd9b83)
 
