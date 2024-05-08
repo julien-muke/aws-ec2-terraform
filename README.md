@@ -67,7 +67,7 @@ Now you can see that our user has been successfully created.
 
 11. The access key is successfully created, now it will show the access key as well as the secret access key, I will simply go and download the CSV file.
 
-![Screenshot 2024-05-05 at 13 00 36](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/6729ff8e-3b35-4e1c-9994-3ed73d557b73)
+![Screenshot 2024-05-05 at 13 00 36](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/0c21c652-5cf0-4b8f-8e8e-bfb828a03e2c)
 
 
 ## ➡️ Step 2 - Configure AWS profile and set up the AWS CLI
