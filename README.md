@@ -80,7 +80,7 @@ We are going to configure basic settings that the AWS Command Line Interface (AW
 3. Copy and paste your AWS Secret Access key
 4. Keep as default region name and output format
 
-![1](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/401b86cd-ddbd-4022-8556-9d512e686306)
+![1](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/ad38c212-ed4a-4730-9614-8a8959faab10)
 
 5. To check if the AWS profile is configured run the following command `aws configure list`
 
