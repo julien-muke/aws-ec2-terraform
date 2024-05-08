@@ -204,7 +204,7 @@ Terraform will print output similar to what is shown below. I have truncated som
 terraform apply
 ```
 
-![9](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/e74c3408-96fe-4180-ad5a-386c82ce3fb2)
+![9](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/ded1b95f-e42e-4fe0-8f2e-b67bddc53ad3)
 
 You have now created infrastructure using Terraform! 
 
@@ -216,7 +216,7 @@ Let's verify and see if our new EC2 instance has been created.
 
 1. Open your AWS Management Console, seach for EC2 instance, as you can see below our EC2 instance has been successfully created  and it's in a running state.
 
-![Screenshot 2024-05-05 at 13 46 13](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/0af68101-c649-41d4-9d99-27520763eef4)
+![Screenshot 2024-05-05 at 13 46 13](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/2b20eaf8-5fb8-40f0-a071-8d3af213c06b)
 
 
 🏆 We have successfully created an EC2 instance with the help of Terraform.
