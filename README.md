@@ -190,7 +190,9 @@ terraform plan
 - It will create the Amazon Machine Image (AMI) as we specify
 - The rest of the configuration will be applied automatically
 
-![6](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/53794b97-78ad-41d6-996c-70bcba9a5b0f)
+Terraform will print output similar to what is shown below. I have truncated some of the output to save space.
+
+![6](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/52ab1b1c-8ee7-4559-9792-7e3ef18b6ad8)
 ![7](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/7a509edb-85fd-4a70-a21d-b11aace73706)
 ![8](https://github.com/julien-muke/aws-ec2-terraform/assets/110755734/a8441e38-1874-41b0-8aea-8fe9129978aa)
 
